@@ -1,0 +1,21 @@
+Locators :
+1. ID
+2. ClassName
+3. Name
+4. linkText -- <a> anchor tag
+5. partialLinkText -- <a> anchor tag
+6. Xpath
+7. CSS
+
+Xpath Syntax : //tagName[@attribute='value'];
+if have to find in entire DOM, the syntax : //*[@attribute='value'];
+
+Xpath parent child relationship : Define xpath for parent and traverse till child using /tagname
+
+Relative xpath : direct node
+Absolute : starting from html/parent node
+
+sibling : //*[@attribute='value']/following-sibling::<sibling tagname>
+parent : //*[child xpath]/parent::<parent tagname>
+
+Text() : //*[text()=''];
